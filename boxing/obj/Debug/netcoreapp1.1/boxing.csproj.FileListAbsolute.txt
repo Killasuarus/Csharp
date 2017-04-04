@@ -1,0 +1,8 @@
+C:\Users\BigDy\Desktop\Cfun\boxing\bin\Debug\netcoreapp1.1\boxing.deps.json
+C:\Users\BigDy\Desktop\Cfun\boxing\bin\Debug\netcoreapp1.1\boxing.runtimeconfig.json
+C:\Users\BigDy\Desktop\Cfun\boxing\bin\Debug\netcoreapp1.1\boxing.runtimeconfig.dev.json
+C:\Users\BigDy\Desktop\Cfun\boxing\bin\Debug\netcoreapp1.1\boxing.dll
+C:\Users\BigDy\Desktop\Cfun\boxing\bin\Debug\netcoreapp1.1\boxing.pdb
+C:\Users\BigDy\Desktop\Cfun\boxing\obj\Debug\netcoreapp1.1\boxing.AssemblyInfo.cs
+C:\Users\BigDy\Desktop\Cfun\boxing\obj\Debug\netcoreapp1.1\boxing.dll
+C:\Users\BigDy\Desktop\Cfun\boxing\obj\Debug\netcoreapp1.1\boxing.pdb
