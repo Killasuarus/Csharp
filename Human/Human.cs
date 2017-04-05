@@ -3,33 +3,42 @@ using System;
 namespace Human
 {
     public class Human
+{
+    public string name;
+
+    //The { get; set; } format creates accessor methods for the field specified
+    //This is done to allow flexibility
+    public int health { get; set; }
+    public int strength { get; set; }
+    public int intelligence { get; set; }
+    public int dexterity { get; set; }
+
+    public Human(string person)
     {
-        public string name;
-        public int strength = 3;
-        public int intelligence = 3;
-        public int dexterity = 3;
-        public int health = 100;
-
-        public Human(string str){
-            name = str;
-        }
-        
-        public Human(string nm, int str, int intel, int dex, int hlth){
-            name = nm;
-            strength = str;
-            intelligence = intel;
-            dexterity = dex;
-            health = hlth;
-        }
-
-        public void Attack(object human)
+        name = person;
+        strength = 3;
+        intelligence = 3;
+        dexterity = 3;
+        health = 100;
+    }
+    public Human(string person, int str, int intel, int dex, int hp)
+    {
+        name = person;
+        strength = str;
+        intelligence = intel;
+        dexterity = dex;
+        health = hp;
+    }
+    public void attack(object obj)
+    {
+        Human enemy = obj as Human;
+        if(enemy == null)
         {
-            Human target = human as Human;
-            if(target != null)
-            {
-                target.health -= strength * 5;
-                Console.WriteLine(target.health);
-            }
+            Console.WriteLine("Failed Attack");
+        }
+        else
+        {
+            enemy.health -= strength * 5;
         }
     }
 }

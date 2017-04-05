@@ -7080,16 +7080,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\BigDy\\Desktop\\Cfun\\Human\\Human.csproj",
-      "projectName": "Human",
-      "projectPath": "c:\\Users\\BigDy\\Desktop\\Cfun\\Human\\Human.csproj",
-      "outputPath": "c:\\Users\\BigDy\\Desktop\\Cfun\\Human\\obj\\",
+      "projectUniqueName": "C:\\Users\\BigDy\\Desktop\\Cfun\\DeckOfCards\\DeckOfCards.csproj",
+      "projectName": "DeckOfCards",
+      "projectPath": "C:\\Users\\BigDy\\Desktop\\Cfun\\DeckOfCards\\DeckOfCards.csproj",
+      "outputPath": "C:\\Users\\BigDy\\Desktop\\Cfun\\DeckOfCards\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/Human.dll": "c:\\Users\\BigDy\\Desktop\\Cfun\\Human\\bin\\placeholder\\netcoreapp1.1\\Human.dll"
+        "lib/netcoreapp1.1/DeckOfCards.dll": "C:\\Users\\BigDy\\Desktop\\Cfun\\DeckOfCards\\bin\\placeholder\\netcoreapp1.1\\DeckOfCards.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {
